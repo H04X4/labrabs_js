@@ -16,7 +16,6 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use('/getUsers', getUsersRouter);
 app.use('/postUser', postUserRouter);
 
-// редирект с корня на /getUsers
 app.get('/', (req, res) => res.redirect('/getUsers'));
 
 app.listen(PORT, () => console.log(`Server running on http://localhost:${PORT}`));
