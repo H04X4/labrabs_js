@@ -5,7 +5,6 @@ const path = require('path');
 const router = express.Router();
 const db = new sqlite3.Database(path.join(__dirname, '../users.db'));
 
-// Форма для добавления или редактирования пользователя
 router.get('/postUser', (req, res) => {
     const id = req.query.id; 
     db.all("SELECT idGroup, nameGroup FROM groups", [], (err, groups) => {
@@ -21,7 +20,7 @@ router.get('/postUser', (req, res) => {
     });
 });
 
-// POST — добавление нового или обновление существующего пользователя
+
 router.post('/postUser', (req, res) => {
     const { id, firstName, lastName, rating, gender, idGroup } = req.body;
     if (id) {
