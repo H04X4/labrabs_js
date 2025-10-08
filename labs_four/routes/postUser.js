@@ -9,12 +9,10 @@ const arrayDirects = [
     "Программная инженерия"
 ];
 
-// GET форма для добавления пользователя
 router.get('/', (req, res) => {
     res.render('postUser', { arrayDirects });
 });
 
-// POST обработка формы
 router.post('/', (req, res) => {
     const { firstName, lastName, rating, gender, arrayDirects: directs } = req.body;
 
