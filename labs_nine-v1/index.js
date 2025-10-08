@@ -2,7 +2,7 @@ const request = require('request');
 const requestSync = require('sync-request');
 const readline = require('readline');
 
-// URL файлов
+
 const url1 = 'https://pcoding.ru/txt/labrab04-1.txt';
 const url2 = 'https://pcoding.ru/txt/labrab04-2.txt';
 const url3 = 'https://pcoding.ru/txt/labrab04-3.txt';
