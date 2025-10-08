@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title><%= isEdit ? 'Изменить пользователя' : 'Добавить пользователя' %></title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+</head>
+<body class="p-4">
+    <h1><%= isEdit ? 'Изменить пользователя' : 'Добавить пользователя' %></h1>
+    <form action="/postUser" method="POST">
+        <% if(isEdit){ %>
+            <input type="hidden" name="id" value="<%= user.id %>">
+        <% } %>
+        <div class="mb-3">
+            <label>Имя</label>
+            <input type="text" name="firstName" class="form-control" value="<%= user.firstName || '' %>" required>
+        </div>
+        <div class="mb-3">
+            <label>Фамилия</label>
+            <input type="text" name="lastName" class="form-control" value="<%= user.lastName || '' %>" required>
+        </div>
+        <div class="mb-3">
+            <label>Рейтинг</label>
+            <input type="number" name="rating" class="form-control" value="<%= user.rating || '' %>" required>
+        </div>
+        <div class="mb-3">
+            <label>Пол</label><br>
+            <input type="radio" name="gender" value="0" <%= user.gender==0?'checked':'' %> required> Женский
+            <input type="radio" name="gender" value="1" <%= user.gender==1?'checked':'' %>> Мужской
+        </div>
+        <div class="mb-3">
+            <label>Учебная группа</label>
+            <select name="idGroup" class="form-select" required>
+                <% groups.forEach(g => { %>
+                    <option value="<%= g.idGroup %>" <%= g.idGroup==user.idGroup?'selected':'' %>><%= g.nameGroup %></option>
+                <% }) %>
+            </select>
+        </div>
+        <button type="submit" class="btn btn-success"><%= isEdit ? 'Изменить' : 'Добавить' %></button>
+    </form>
+    <a href="/getUsers" class="btn btn-secondary mt-3">Вернуться к списку</a>
+</body>
+</html>

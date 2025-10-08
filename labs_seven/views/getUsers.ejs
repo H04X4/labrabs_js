@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Список пользователей</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+</head>
+<body class="p-4">
+    <h1>Список пользователей</h1>
+    <a href="/postUser" class="btn btn-primary mb-3">Добавить пользователя</a>
+    <% if (users.length === 0) { %>
+        <p>Пользователи отсутствуют.</p>
+    <% } else { %>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Имя</th>
+                <th>Фамилия</th>
+                <th>Рейтинг</th>
+                <th>Пол</th>
+                <th>Группа</th>
+            </tr>
+        </thead>
+        <tbody>
+            <% users.forEach(u => { %>
+            <tr>
+                <td><a href="/postUser?id=<%= u.id %>"><%= u.id %></a></td>
+                <td><%= u.firstName %></td>
+                <td><%= u.lastName %></td>
+                <td><%= u.rating %></td>
+                <td><%= u.gender == 0 ? 'Женский' : 'Мужской' %></td>
+                <td><%= u.nameGroup || '-' %></td>
+            </tr>
+            <% }) %>
+        </tbody>
+    </table>
+    <% } %>
+</body>
+</html>

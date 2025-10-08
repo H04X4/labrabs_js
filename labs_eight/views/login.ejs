@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Авторизация</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <h1>Вход в личный кабинет</h1>
+    <% if(message){ %>
+        <p style="color:red;"><%= message %></p>
+    <% } %>
+    <form action="/login" method="POST">
+        <div>
+            <label>Логин</label>
+            <input type="text" name="login" required>
+        </div>
+        <div>
+            <label>Пароль</label>
+            <input type="password" name="password" required>
+        </div>
+        <button type="submit">Войти</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,18 @@
+:root{--bg:#f7f9fb;--card:#fff;--accent:#2b7cff;--muted:#777}
+*{box-sizing:border-box;font-family:Inter,system-ui,Arial,sans-serif}
+body{margin:0;background:var(--bg);color:#111}
+.center{min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.container{max-width:980px;margin:32px auto;padding:20px}
+h1{margin:0 0 18px;font-size:24px}
+.buttons{display:flex;gap:16px;margin-top:18px}
+.btn{display:inline-block;padding:12px 20px;background:var(--card);border-radius:8px;color:#111;text-decoration:none;box-shadow:0 6px 18px rgba(11,22,39,.06);border:1px solid #e6eefb}
+.btn-accent{background:linear-gradient(90deg,var(--accent),#1a5fe0);color:#fff;border:none}
+.back{display:inline-block;margin-bottom:12px;color:#333;text-decoration:none}
+table{width:100%;border-collapse:collapse;background:var(--card);box-shadow:0 6px 24px rgba(11,22,39,.06);border-radius:8px;overflow:hidden}
+thead th{background:#f1f6ff;padding:12px;text-align:left;border-bottom:1px solid #eef3ff}
+tbody td{padding:10px;border-bottom:1px solid #f3f6fb}
+.muted{text-align:center;color:var(--muted);padding:20px}
+.form-container{max-width:720px}
+.form label{display:block;margin:10px 0;color:#222}
+.form input,.form select{width:100%;padding:10px;border-radius:6px;border:1px solid #dfeaf8;background:#fff}
+.form-actions{margin-top:16px}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="/css/style.css" />
+  <title>Абитуриенты</title>
+</head>
+<body>
+  <main class="container">
+    <h1>Список абитуриентов</h1>
+    <a class="back" href="/">← Главная</a>
+    <table>
+      <thead>
+        <tr>
+          <th>IdStudent</th>
+          <th>NameStudent</th>
+          <th>Sex</th>
+          <th>BallMath</th>
+          <th>BallLang</th>
+          <th>BallInf</th>
+          <th>IdDirect</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% if (rows && rows.length) { %>
+          <% rows.forEach(function(r){ %>
+            <tr>
+              <td><%= r.IdStudent %></td>
+              <td><%= r.NameStudent %></td>
+              <td><%= r.Sex %></td>
+              <td><%= r.BallMath %></td>
+              <td><%= r.BallLang %></td>
+              <td><%= r.BallInf %></td>
+              <td><%= r.IdDirect %></td>
+            </tr>
+          <% }); %>
+        <% } else { %>
+          <tr><td colspan="7" class="muted">Данных нет</td></tr>
+        <% } %>
+      </tbody>
+    </table>
+  </main>
+</body>
+</html>

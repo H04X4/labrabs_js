@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Добавить пользователя</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+</head>
+<body class="p-4">
+    <h1>Добавить пользователя</h1>
+    <form action="/postUser" method="POST">
+        <div class="mb-3">
+            <label>Имя</label>
+            <input type="text" name="firstName" class="form-control" required>
+        </div>
+        <div class="mb-3">
+            <label>Фамилия</label>
+            <input type="text" name="lastName" class="form-control" required>
+        </div>
+        <div class="mb-3">
+            <label>Рейтинг</label>
+            <input type="number" name="rating" class="form-control" required>
+        </div>
+        <div class="mb-3">
+            <label>Пол</label><br>
+            <input type="radio" name="gender" value="0" required> Женский
+            <input type="radio" name="gender" value="1"> Мужской
+        </div>
+        <div class="mb-3">
+            <label>Учебная группа</label>
+            <select name="idGroup" class="form-select" required>
+                <% groups.forEach(g => { %>
+                    <option value="<%= g.idGroup %>"><%= g.nameGroup %></option>
+                <% }) %>
+            </select>
+        </div>
+        <button type="submit" class="btn btn-success">Добавить</button>
+    </form>
+    <a href="/getUsers" class="btn btn-secondary mt-3">Вернуться к списку</a>
+</body>
+</html>

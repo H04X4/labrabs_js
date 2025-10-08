@@ -1,0 +1,9 @@
+{
+  "appName": "exam_balls",
+  "dirJSON": "./json/",
+  "fileName": "exam_balls.json",
+  "hosting": {
+    "HOST": "localhost",
+    "PORT": 3000
+  }
+}

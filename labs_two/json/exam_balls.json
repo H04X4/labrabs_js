@@ -1,0 +1,452 @@
+[
+  {
+    "IdStudent": "1",
+    "NameStudent": "Иванов",
+    "Sex": "м",
+    "BallMath": "60",
+    "BallLang": "70",
+    "BallInf": "80",
+    "IdDirect": "1"
+  },
+  {
+    "IdStudent": "2",
+    "NameStudent": "Петров",
+    "Sex": "м",
+    "BallMath": "60",
+    "BallLang": "62",
+    "BallInf": "60",
+    "IdDirect": "2"
+  },
+  {
+    "IdStudent": "3",
+    "NameStudent": "Яценко",
+    "Sex": "ж",
+    "BallMath": "70",
+    "BallLang": "77",
+    "BallInf": "70",
+    "IdDirect": "3"
+  },
+  {
+    "IdStudent": "4",
+    "NameStudent": "Бойко",
+    "Sex": "ж",
+    "BallMath": "60",
+    "BallLang": "64",
+    "BallInf": "62",
+    "IdDirect": "2"
+  },
+  {
+    "IdStudent": "5",
+    "NameStudent": "Миков",
+    "Sex": "м",
+    "BallMath": "60",
+    "BallLang": "70",
+    "BallInf": "88",
+    "IdDirect": "1"
+  },
+  {
+    "IdStudent": "6",
+    "NameStudent": "Мищенко",
+    "Sex": "ж",
+    "BallMath": "60",
+    "BallLang": "52",
+    "BallInf": "60",
+    "IdDirect": "3"
+  },
+  {
+    "IdStudent": "7",
+    "NameStudent": "Ямбург",
+    "Sex": "ж",
+    "BallMath": "70",
+    "BallLang": "77",
+    "BallInf": "75",
+    "IdDirect": "3"
+  },
+  {
+    "IdStudent": "8",
+    "NameStudent": "Абросов",
+    "Sex": "м",
+    "BallMath": "56",
+    "BallLang": "62",
+    "BallInf": "62",
+    "IdDirect": "2"
+  },
+  {
+    "IdStudent": "9",
+    "NameStudent": "Кикова",
+    "Sex": "ж",
+    "BallMath": "66",
+    "BallLang": "75",
+    "BallInf": "80",
+    "IdDirect": "1"
+  },
+  {
+    "IdStudent": "10",
+    "NameStudent": "Кикабидзе",
+    "Sex": "ж",
+    "BallMath": "54",
+    "BallLang": "62",
+    "BallInf": "60",
+    "IdDirect": "1"
+  },
+  {
+    "IdStudent": "11",
+    "NameStudent": "Луканин",
+    "Sex": "м",
+    "BallMath": "70",
+    "BallLang": "75",
+    "BallInf": "90",
+    "IdDirect": "3"
+  },
+  {
+    "IdStudent": "12",
+    "NameStudent": "Жданов",
+    "Sex": "м",
+    "BallMath": "68",
+    "BallLang": "66",
+    "BallInf": "62",
+    "IdDirect": "2"
+  },
+  {
+    "IdStudent": "13",
+    "NameStudent": "Маков",
+    "Sex": "м",
+    "BallMath": "60",
+    "BallLang": "70",
+    "BallInf": "50",
+    "IdDirect": "1"
+  },
+  {
+    "IdStudent": "14",
+    "NameStudent": "Сынбаева",
+    "Sex": "ж",
+    "BallMath": "60",
+    "BallLang": "52",
+    "BallInf": "50",
+    "IdDirect": "2"
+  },
+  {
+    "IdStudent": "15",
+    "NameStudent": "Занозкина",
+    "Sex": "ж",
+    "BallMath": "70",
+    "BallLang": "57",
+    "BallInf": "70",
+    "IdDirect": "3"
+  },
+  {
+    "IdStudent": "16",
+    "NameStudent": "Машина",
+    "Sex": "ж",
+    "BallMath": "60",
+    "BallLang": "54",
+    "BallInf": "62",
+    "IdDirect": "2"
+  },
+  {
+    "IdStudent": "17",
+    "NameStudent": "Градский",
+    "Sex": "м",
+    "BallMath": "62",
+    "BallLang": "57",
+    "BallInf": "70",
+    "IdDirect": "1"
+  },
+  {
+    "IdStudent": "18",
+    "NameStudent": "Петровский",
+    "Sex": "м",
+    "BallMath": "60",
+    "BallLang": "62",
+    "BallInf": "66",
+    "IdDirect": "2"
+  },
+  {
+    "IdStudent": "19",
+    "NameStudent": "Берг",
+    "Sex": "ж",
+    "BallMath": "74",
+    "BallLang": "77",
+    "BallInf": "74",
+    "IdDirect": "3"
+  },
+  {
+    "IdStudent": "20",
+    "NameStudent": "Крамола",
+    "Sex": "ж",
+    "BallMath": "66",
+    "BallLang": "66",
+    "BallInf": "62",
+    "IdDirect": "2"
+  },
+  {
+    "IdStudent": "21",
+    "NameStudent": "Иванова",
+    "Sex": "ж",
+    "BallMath": "60",
+    "BallLang": "70",
+    "BallInf": "86",
+    "IdDirect": "1"
+  },
+  {
+    "IdStudent": "22",
+    "NameStudent": "Петрова",
+    "Sex": "ж",
+    "BallMath": "70",
+    "BallLang": "62",
+    "BallInf": "90",
+    "IdDirect": "2"
+  },
+  {
+    "IdStudent": "23",
+    "NameStudent": "Ященко",
+    "Sex": "м",
+    "BallMath": "80",
+    "BallLang": "78",
+    "BallInf": "73",
+    "IdDirect": "3"
+  },
+  {
+    "IdStudent": "24",
+    "NameStudent": "Бойков",
+    "Sex": "м",
+    "BallMath": "65",
+    "BallLang": "64",
+    "BallInf": "68",
+    "IdDirect": "2"
+  },
+  {
+    "IdStudent": "25",
+    "NameStudent": "Микова",
+    "Sex": "ж",
+    "BallMath": "60",
+    "BallLang": "55",
+    "BallInf": "88",
+    "IdDirect": "1"
+  },
+  {
+    "IdStudent": "26",
+    "NameStudent": "Мищенко",
+    "Sex": "м",
+    "BallMath": "60",
+    "BallLang": "58",
+    "BallInf": "64",
+    "IdDirect": "3"
+  },
+  {
+    "IdStudent": "27",
+    "NameStudent": "Ямбург",
+    "Sex": "м",
+    "BallMath": "80",
+    "BallLang": "77",
+    "BallInf": "75",
+    "IdDirect": "3"
+  },
+  {
+    "IdStudent": "28",
+    "NameStudent": "Абросова",
+    "Sex": "ж",
+    "BallMath": "76",
+    "BallLang": "62",
+    "BallInf": "62",
+    "IdDirect": "2"
+  },
+  {
+    "IdStudent": "29",
+    "NameStudent": "Киков",
+    "Sex": "м",
+    "BallMath": "66",
+    "BallLang": "75",
+    "BallInf": "84",
+    "IdDirect": "1"
+  },
+  {
+    "IdStudent": "30",
+    "NameStudent": "Кикабидзе",
+    "Sex": "м",
+    "BallMath": "84",
+    "BallLang": "62",
+    "BallInf": "60",
+    "IdDirect": "1"
+  },
+  {
+    "IdStudent": "31",
+    "NameStudent": "Луканина",
+    "Sex": "ж",
+    "BallMath": "72",
+    "BallLang": "75",
+    "BallInf": "92",
+    "IdDirect": "3"
+  },
+  {
+    "IdStudent": "32",
+    "NameStudent": "Жданова",
+    "Sex": "ж",
+    "BallMath": "61",
+    "BallLang": "86",
+    "BallInf": "67",
+    "IdDirect": "2"
+  },
+  {
+    "IdStudent": "33",
+    "NameStudent": "Макова",
+    "Sex": "ж",
+    "BallMath": "64",
+    "BallLang": "77",
+    "BallInf": "70",
+    "IdDirect": "1"
+  },
+  {
+    "IdStudent": "34",
+    "NameStudent": "Сынбаев",
+    "Sex": "м",
+    "BallMath": "67",
+    "BallLang": "62",
+    "BallInf": "62",
+    "IdDirect": "2"
+  },
+  {
+    "IdStudent": "35",
+    "NameStudent": "Занозкин",
+    "Sex": "м",
+    "BallMath": "70",
+    "BallLang": "57",
+    "BallInf": "70",
+    "IdDirect": "3"
+  },
+  {
+    "IdStudent": "36",
+    "NameStudent": "Мишкин",
+    "Sex": "м",
+    "BallMath": "60",
+    "BallLang": "74",
+    "BallInf": "62",
+    "IdDirect": "2"
+  },
+  {
+    "IdStudent": "37",
+    "NameStudent": "Градская",
+    "Sex": "ж",
+    "BallMath": "60",
+    "BallLang": "60",
+    "BallInf": "80",
+    "IdDirect": "1"
+  },
+  {
+    "IdStudent": "38",
+    "NameStudent": "Петровская",
+    "Sex": "ж",
+    "BallMath": "60",
+    "BallLang": "62",
+    "BallInf": "78",
+    "IdDirect": "2"
+  },
+  {
+    "IdStudent": "39",
+    "NameStudent": "Берг",
+    "Sex": "м",
+    "BallMath": "80",
+    "BallLang": "73",
+    "BallInf": "70",
+    "IdDirect": "3"
+  },
+  {
+    "IdStudent": "40",
+    "NameStudent": "Крамолов",
+    "Sex": "м",
+    "BallMath": "60",
+    "BallLang": "64",
+    "BallInf": "62",
+    "IdDirect": "2"
+  },
+  {
+    "IdStudent": "51",
+    "NameStudent": "Панина",
+    "Sex": "ж",
+    "BallMath": "60",
+    "BallLang": "70",
+    "BallInf": "78",
+    "IdDirect": "1"
+  },
+  {
+    "IdStudent": "52",
+    "NameStudent": "Пушкина",
+    "Sex": "ж",
+    "BallMath": "66",
+    "BallLang": "62",
+    "BallInf": "61",
+    "IdDirect": "2"
+  },
+  {
+    "IdStudent": "53",
+    "NameStudent": "Лермонов",
+    "Sex": "м",
+    "BallMath": "70",
+    "BallLang": "72",
+    "BallInf": "75",
+    "IdDirect": "3"
+  },
+  {
+    "IdStudent": "54",
+    "NameStudent": "Сахаров",
+    "Sex": "м",
+    "BallMath": "67",
+    "BallLang": "64",
+    "BallInf": "63",
+    "IdDirect": "2"
+  },
+  {
+    "IdStudent": "55",
+    "NameStudent": "Ахматова",
+    "Sex": "ж",
+    "BallMath": "60",
+    "BallLang": "70",
+    "BallInf": "68",
+    "IdDirect": "1"
+  },
+  {
+    "IdStudent": "56",
+    "NameStudent": "Есенин",
+    "Sex": "м",
+    "BallMath": "65",
+    "BallLang": "58",
+    "BallInf": "61",
+    "IdDirect": "3"
+  },
+  {
+    "IdStudent": "57",
+    "NameStudent": "Маяковский",
+    "Sex": "м",
+    "BallMath": "68",
+    "BallLang": "74",
+    "BallInf": "75",
+    "IdDirect": "3"
+  },
+  {
+    "IdStudent": "58",
+    "NameStudent": "Пахмутова",
+    "Sex": "ж",
+    "BallMath": "56",
+    "BallLang": "67",
+    "BallInf": "63",
+    "IdDirect": "2"
+  },
+  {
+    "IdStudent": "59",
+    "NameStudent": "Булгаков",
+    "Sex": "м",
+    "BallMath": "65",
+    "BallLang": "70",
+    "BallInf": "72",
+    "IdDirect": "1"
+  },
+  {
+    "IdStudent": "60",
+    "NameStudent": "Достоевский",
+    "Sex": "м",
+    "BallMath": "57",
+    "BallLang": "62",
+    "BallInf": "60",
+    "IdDirect": "3"
+  }
+]

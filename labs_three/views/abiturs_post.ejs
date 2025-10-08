@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="/css/style.css" />
+  <title>Добавить абитуриента</title>
+</head>
+<body>
+  <main class="container form-container">
+    <h1>Добавить запись</h1>
+    <a class="back" href="/">← Главная</a>
+    <form method="post" action="/abiturs_post" class="form">
+      <label>ФИО
+        <input name="NameStudent" required />
+      </label>
+      <label>Пол
+        <select name="Sex">
+          <option value="">--</option>
+          <option value="M">M</option>
+          <option value="F">F</option>
+        </select>
+      </label>
+      <label>Баллы (Математика)
+        <input name="BallMath" />
+      </label>
+      <label>Баллы (Язык)
+        <input name="BallLang" />
+      </label>
+      <label>Баллы (Информатика)
+        <input name="BallInf" />
+      </label>
+      <label>IdDirect
+        <input name="IdDirect" />
+      </label>
+      <div class="form-actions">
+        <button class="btn" type="submit">Сохранить данные</button>
+      </div>
+    </form>
+  </main>
+</body>
+</html>
