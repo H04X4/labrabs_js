@@ -28,11 +28,10 @@ function saveCSV(headers, rows) {
 }
 
 function showTable(rows) {
-  console.table(rows.slice(0, 10)); // первые 10 строк для удобства
+  console.table(rows.slice(0, 10));
   console.log(`Всего записей: ${rows.length}`);
 }
 
-// === Исправленный маршрут /getData ===
 app.get('/getData', (req, res) => {
   try {
     const resp = request('GET', sourceUrl, {
